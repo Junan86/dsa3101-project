@@ -124,7 +124,7 @@ st.markdown("""
 <div style='margin-top: 30px; color: #aaa;'>
 """, unsafe_allow_html=True)
 
-st.image(read_image("b5_churn_coefficient.png"))
+st.image(read_image("B5_churn_coefficient.png"))
 
 def load_data_and_model():
     seg_model = read_model('a5_streamlit_segment.pkl')

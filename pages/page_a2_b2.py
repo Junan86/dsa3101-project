@@ -65,9 +65,9 @@ def get_best_advertising_platform(cust_id, threshold=0.3):
         return all_possible_channels, None
 
 
-ctr_img = read_image("a2_ctr.jpg")
-cv_rate_img = read_image("a2_conversion_rate.png")
-platform_img = read_image("b2_platform.png")
+ctr_img = read_image("A2_ctr.jpg")
+cv_rate_img = read_image("A2_conversion_rate.png")
+platform_img = read_image("B2_platform.png")
 width_image = 850
 
 # Campaign Analysis Page

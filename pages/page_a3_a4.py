@@ -7,12 +7,12 @@ customer_engagement_df = read_csv('customer_engagement.csv')
 customer_df = read_csv('customers.csv')
 
 # load in plots
-product_usage = read_image("a3_mean_product_usage.png")
-spending_behaviour = read_image("a3_spending_behaviour.png")
-mobile_web_logins = read_image("a3_mobile_web_logins.png")
-profit_clv_per_product = read_image("a4_profit_clv_per_product.jpg")
-heatmap_campaigns_kpis = read_image("a4_heatmap_campaigns_kpis.png")
-correlation_matrix_kpis = read_image("a4_correlation_matrix_kpis.png")
+product_usage = read_image("A3_mean_product_usage.png")
+spending_behaviour = read_image("A3_spending_behaviour.png")
+mobile_web_logins = read_image("A3_mobile_web_logins.png")
+profit_clv_per_product = read_image("A4_profit_clv_per_product.jpg")
+heatmap_campaigns_kpis = read_image("A4_heatmap_campaigns_kpis.png")
+correlation_matrix_kpis = read_image("A4_correlation_matrix_kpis.png")
 
 # Set page config
 st.set_page_config(page_title="Marketing Campaign Analysis", layout="wide")
